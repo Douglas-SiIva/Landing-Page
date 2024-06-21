@@ -1,0 +1,54 @@
+.footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    text-align: center;
+    position: relative; /* Posição relativa para controlar o posicionamento do rodapé */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-link {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #333;
+}
+
+.footer-text {
+    color: #888;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 5px;
+}
+
+.social-icon {
+    width: 18px; /* Tamanho fixo de largura para todos os ícones */
+    height: auto; /* Altura automática para manter a proporção */
+    margin: 0 5px; /* Margem entre os ícones */
+    margin-bottom: -24%;
+}

@@ -1,0 +1,37 @@
+.contact {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Borda quase invisível */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-content h2 {
+    margin-top: -20%;
+}
+
+.contact-content p {
+    margin-bottom: 40px;
+}
+
+.consultation-button {
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 16px; /* Tamanho da fonte do botão */
+    border-radius: 5px; /* Borda arredondada do botão */
+    cursor: pointer; /* Mostra um cursor de ponteiro quando passar o mouse */
+    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+}
+
+.consultation-button:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
