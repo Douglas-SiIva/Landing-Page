@@ -9,7 +9,7 @@ function Banner() {
                 <h1>Transforme suas ideias em realidade digital</h1>
                 <p>Transforme suas ideias em realidade digital</p>
                 <a href="#about" className="btn">Quero um orçamento</a>
-                <img src="https://orientme.com.br/_astro/hero-image.DwIC_L_T_Z4Abv2.webp" alt="logo" />
+                <img src={process.env.PUBLIC_URL + 'astronauta.png'} alt="logo" />
                 <h6 className='simbol'> {'</>'} Somos especialistas em desenvolvimento de sites, sistemas e aplicativos Android e iOS!</h6>
             </div>
         </section>
